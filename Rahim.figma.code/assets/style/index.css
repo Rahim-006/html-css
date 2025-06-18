@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    height: 500vh;
+}
+
+#header{
+    background-color: #262626;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid;
+}
+
+.link-2{
+    background-color: #262626;
+    color: white;
+}
+
+
+.link{
+    color: white;
+}
+
+
+nav{
+    display: flex;
+    gap: 37px;
+    font-size: 18px;
+}
+
+.btn{ 
+    font-family: "Comfortaa", sans-serif;
+    background-color: #9EFF00;
+    border: 1px solid #262626;
+    padding: 13px 10px;
+    border-radius: 8px;
+    color: black;
+}
+
+h2{
+    color: white;
+}
+
+
+#hero{
+    background-image: url(../images/Abstract\ Design.png);
+   background-size: cover;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #262626;
+    border: 1px solid black;
+    flex-direction: column;
+}
+
+
+.herotext{
+    color: white;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 70px;
+    font-weight: 900;
+}
+
+.For{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 40px;
+    
+}
+
+.tag{
+    border: none;
+    border-radius: 20px;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+}
+
+
+.add{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #262626;
+    height: 150px;
+}
+
+.hbtn{
+    background-color: #333;
+    padding: 11px 15px;
+    border-radius: 8px;
+}
+
+.hebtn{
+    background-color: #9EFF00;
+    padding: 11px 15px;
+    border-radius: 8px;
+}
+
+#Service{
+    background-image: url(../images/Text\ Container.png);
+    height: 200px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 18px;
+    color: white;
+    background-size: cover;
+}
+
+
+#cardbox{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.card{
+    border: 1px solid gray;
+    width: auto;
+    height: 300px;
+    background-color: #262626;
+}
+
+.cardtext{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.ctext{
+    background-color: #333;
+    padding: 11px 150px;
+    border-radius: 8px; 
+}
+
+#Aboutus{
+    background-image: url(../images/Text\ Container\ \(1\).png);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+
+h1{
+    color: white;
+}
+
+
+p{
+    color: white;
+}
+
+.ctext{
+    color: white;
+}
+
+#cardbox2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card2{
+    border: 1px solid gray;
+    width: auto;
+    height: 300px;
+    background-color: #262626;
+}
+
+#Clients{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/Container\ \(1\).png);
+    text-align: center;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+}
+
+#cardbox3{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.card3{
+    border: 1px solid;
+    width: auto;
+    background-color: #262626;
+}
+
+.card3txt{
+    color: #D8FF99;
+}
+
+.ctext2{
+    background-color: #333;
+    border-radius: 7px;
+    padding: 12px 17px;
+    display: flex;
+    color: white;
+}
+
+#Questions{
+    background-image: url(../images/Text\ Container\ \(2\).png);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card4{
+    border: 1px solid;
+    width: auto;
+    background-color: #262626;
+}
+
+#cardbox4{
+    display: flex;
+    justify-content: space-between;
+}
+
+#Interest{
+    background-image: url(../images/Container\ \(12\).png);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+}
+
+.inttext{
+    background-color: #9EFF00;
+    margin: 45px;
+    padding: 18px 26px;
+    border-radius: 8px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    height: 700px;
+}
+
+.submit2{
+    display: flex;
+    padding: 12px 2px;
+    justify-content: center;
+    align-items: center;
+    background-color: #9EFF00;
+    border-radius: 9px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0 auto;
+    gap: 30px;
+}
